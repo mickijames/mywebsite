@@ -5,8 +5,8 @@ export default class Footer extends Component {
         return (
             <footer>
                 <hr />
-                <p>Created by Micalyn Williams.</p>
-                <p><a href="https://mickijames.github.io/myPortfolioWebsite">Source Code</a></p>
+                <p>Copyright &copy; mickijames.github.io</p>
+                <p><a href="https://github.com/mickijames/mywebsite">Source Code</a></p>
             </footer>
         );
     }

@@ -18,7 +18,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import logo from './logo.svg';
 import Footer from './components/Footer';
-import beachy from './Assets/beach.jpg';
+import beachy from './assets/beach.jpg';
 
 export default class App extends Component {
     state = {
@@ -39,10 +39,10 @@ export default class App extends Component {
     onScroll = () => {
         let win = $(window);
         let top = win.scrollTop();
-        let bottom = top + win.height() - 300;
-        if (this.contactPos < bottom) this.setState({ activeItem: this.state.sections[3] });
-        else if (this.projPos < bottom) this.setState({ activeItem: this.state.sections[2] });
-        else if (this.aboutPos < bottom) this.setState({ activeItem: this.state.sections[1] });
+        let bottom = top + win.height();
+        if (this.contactPos < bottom - 1500) this.setState({ activeItem: this.state.sections[3] });
+        else if (this.projPos < bottom - 600) this.setState({ activeItem: this.state.sections[2] });
+        else if (this.aboutPos < bottom - 400) this.setState({ activeItem: this.state.sections[1] });
         else this.setState({ activeItem: this.state.sections[0] });
     }
 

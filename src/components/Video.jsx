@@ -1,6 +1,6 @@
 ﻿import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
-import video from '../Assets/video.mp4';
+import video from '../assets/video.mp4';
 
 export default class Video extends Component {
     render() {

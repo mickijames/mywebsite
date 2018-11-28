@@ -1,11 +1,10 @@
 ﻿import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import ReactPlayer from 'react-player';
-import { Segment, Image } from 'semantic-ui-react';
-import tetris from '../Assets/tetris.mp4';
-import ashman from '../Assets/ashman.mp4';
-
-const src = 'https://placeimg.com/640/480/any';
+import { Segment, Image} from 'semantic-ui-react';
+import tetris from '../assets/tetris.png';
+import ashman from '../assets/ashman_play_cropped.png';
+import shoppingCart from '../assets/shop_home.png';
+import plannerApp from '../assets/home.png';
 
 export default class Projects extends Component {
     pos;
@@ -25,42 +24,28 @@ export default class Projects extends Component {
                     <Segment padded="very">
                         <h2>Projects</h2>
                         <Segment.Group horizontal padded="very">
-                            <Segment padded="very">
-                                <ReactPlayer loop muted playing
-                                    className='react-player'
-                                    url={[
-                                        { src: tetris, type: "video/mp4" }
-                                    ]}
-                                    width='inherit'
-                                    height=''
-                                />
-                                <div className="text">
-                                    <h4>Tetris Game</h4>
-                                    <p>This is a tetris game created with the C#, WPF framework. Ethan Holman and I worked on it together as a final project.</p>
-                                </div>
-                            </Segment>
-                            <Segment padded="very">
-                                <ReactPlayer loop muted playing
-                                    className='react-player'
-                                    url={[
-                                        { src: ashman, type: "video/mp4" }
-                                    ]}
-                                    width='inherit'
-                                    height=''
-                                />
-                                <div className="text">
-                                    <h4>Ashman Game</h4>
-                                    <p>I created this pacman-like game for my final project in my android class.</p>
-                                </div>
-                            </Segment>
-                            <Segment padded="very">
-                                <Image src={src} size="medium" />
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis ut numquam labore impedit expedita aliquid dolorem eum iure libero qui est, explicabo harum fugit et modi? Sunt, harum vero!</p>
-                            </Segment>
+                            <ProjVideo path={ashman} size="medium" name="Ashman Game" desc="I created this pacman-like game for my final project in my android class." />
+                            <ProjVideo path={tetris} size="large" name="Tetris Game" desc="This is a tetris game created with the C#, WPF framework. Ethan Holman and I worked on it together as a final project." />
+                            </Segment.Group>
+                        <Segment.Group horizontal padded="very">
+                            <ProjVideo path={plannerApp} size="medium" name="Good Morning Planner" desc="I designed this app as a one-stop shop for planning your day. It combines the weather, to-do/reminder apps, calendar, and alarm into a single app for better organization." />
+                            <ProjVideo path={shoppingCart} size="large" name="Shopping Cart Website" desc="I created a data-driven website with C# ASP.NET and Bootstrap." />
                         </Segment.Group>
                     </Segment>
                 </Segment.Group>
             </div>
         );
     }
+}
+
+function ProjVideo(props) {
+    return (
+        <Segment padded="very">
+            <Image src={props.path} size={props.size} ui rounded />
+            <div className="text">
+                <h4>{props.name}</h4>
+                <p>{props.desc}</p>
+            </div>
+        </Segment>
+    );
 }
