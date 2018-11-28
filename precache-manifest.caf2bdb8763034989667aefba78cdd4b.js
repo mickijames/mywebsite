@@ -76,24 +76,24 @@ self.__precacheManifest = [
     "url": "/mywebsite/static/media/outline-icons.cd6c777f.woff2"
   },
   {
-    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
-    "url": "/mywebsite/static/media/outline-icons.ef60a4f6.woff"
-  },
-  {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
     "url": "/mywebsite/static/media/icons.b87b9ba5.ttf"
+  },
+  {
+    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
+    "url": "/mywebsite/static/media/outline-icons.ef60a4f6.woff"
   },
   {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
     "url": "/mywebsite/static/media/outline-icons.ad97afd3.ttf"
   },
   {
-    "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
-    "url": "/mywebsite/static/media/outline-icons.82f60bd0.svg"
-  },
-  {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/mywebsite/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
+    "url": "/mywebsite/static/media/outline-icons.82f60bd0.svg"
   },
   {
     "revision": "a046592bac8f2fd96e994733faf3858c",
