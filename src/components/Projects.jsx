@@ -1,10 +1,10 @@
 ﻿import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Segment, Image} from 'semantic-ui-react';
-import tetris from '../assets/tetris.png';
-import ashman from '../assets/ashman_play_cropped.png';
-import shoppingCart from '../assets/shop_home.png';
-import plannerApp from '../assets/home.png';
+import tetris from '../Assets/tetris.png';
+import ashman from '../Assets/ashman_play_cropped.png';
+import shoppingCart from '../Assets/shop_home.png';
+import plannerApp from '../Assets/home.png';
 
 export default class Projects extends Component {
     pos;

@@ -1,0 +1,195 @@
+#about .ui.segment {
+  border: 1px solid #00ff00;
+  
+  h2 {
+    color: #fff000;
+  }
+
+  .text {
+    color: #003200;
+  }
+}
+
+#projects .ui.segments:not(.horizontal) {
+  border: 1px solid #fff000;
+  
+  .ui.horizontal.segments {
+    background-color: transparent;
+  }
+
+  h2 {
+    color: blueviolet;
+  }
+
+  .text {
+    color: #003200;
+    max-width: 75%;
+  }
+}
+
+#contact .ui.segment {
+  border: 1px solid blueviolet;
+
+  h2 {
+    color: #00ff00;
+  }
+  
+  label {
+    color: #003200;
+  }
+}
+
+.ui {
+  .top.fixed.menu {
+    left: inherit;
+    
+    #App-logo {
+      width: 1.75rem;
+      margin: -.25rem;
+    }
+  }
+
+  .header {
+    padding: 1em 0;
+
+    > .image:not(.icon), > img {
+      width: auto;
+      height: 300px;
+    }
+
+    h1.inverted {
+      font-size: 2.5rem;
+      text-align: center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2) 10%, rgba(0, 0, 0, 0.05) 100%);
+    
+      h2, h3, h4, h5, h6 {
+        font-family: "Monaco", monospace;
+      }
+    }
+
+    i.icon:only-child {
+      font-size: 2rem;
+      padding-top: .5em;
+      width: 1em;
+      height: 1.25em;
+    }
+  }
+
+  .horizontal.segments, .horizontal.segments > .segment {
+    border: none;
+    box-shadow: none;
+    min-width: 50%;
+  }
+}
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+  padding-bottom: 1.5rem;
+}
+
+h4:first-child {
+  margin-top: 2rem;
+}
+
+.top.shade::before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.2) 100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -25%;
+}
+
+.fullscreen-bg {
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+
+  video {
+    object-fit: cover;
+  }
+}
+.page-height {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.no-pad {
+  padding: 0;
+  width: 100vw;
+}
+
+.header.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.section {
+  margin: 5em 0;
+}
+
+hr {
+  visibility: hidden;
+}
+
+footer {
+  text-align: center;
+  padding: 5em;
+  
+  hr {
+    visibility: visible;
+    margin: 2em;
+  }
+}
+
+@media (max-width: 497px) {
+  p {
+    font-size: 1em;
+  }
+
+  .ui {
+    .top.fixed.menu {
+      visibility: hidden;
+    }
+
+    .header h1.inverted {
+      font-size: 2rem;
+    }
+
+    [class*='very padded'].segment, .ui .segments {
+      padding: 1em 0;
+      border: 0;
+      box-shadow: unset;
+    }
+  }
+
+  .section {
+    margin: 1em;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+}

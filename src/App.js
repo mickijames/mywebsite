@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ScrollEvent from 'react-onscroll';
 import 'semantic-ui-css/semantic.min.css';
-import './App.css';
+import './App.scss';
 import {
     Button,
     Container,
@@ -18,7 +18,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import logo from './logo.svg';
 import Footer from './components/Footer';
-import beachy from './assets/beach.jpg';
+import beachy from './Assets/beach.jpg';
 
 export default class App extends Component {
     state = {
@@ -62,7 +62,9 @@ export default class App extends Component {
                 <Header id='home' className="bg-image top shade">
                     <Container>
                         <Menu inverted pointing secondary fixed="top" className="top shade">
-                            <img src={logo} className="App-logo" alt="logo" />
+                            <Menu.Item>
+                                <img src={logo} id="App-logo" alt="logo" />
+                            </Menu.Item>
                             <Menu.Item
                                 name="home"
                                 active={activeItem === "home"}
