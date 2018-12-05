@@ -173,24 +173,57 @@ footer {
 }
 
 @media (max-width: 497px) {
+  #about .ui.segment, #projects .ui.segments:not(.horizontal), #contact .ui.segment {
+    border: 0;
+  }
+
   p {
     font-size: 1em;
   }
 
   .ui {
     .top.fixed.menu {
-      visibility: hidden;
+      margin: 0 -.5rem;
     }
 
     .header h1.inverted {
       font-size: 2rem;
     }
 
-    [class*='very padded'].segment, .ui .segments {
-      padding: 1em 0;
-      border: 0;
-      box-shadow: unset;
+    .segments {
+      flex-flow: wrap;
     }
+
+    [class*='very padded'].segment, .segments {
+      padding: 1em 0;
+      box-shadow: unset;
+
+      .text {
+        max-width: 90%;
+        margin: auto;
+      }
+
+      h2 {
+        margin: 0 1rem 1.5rem;
+      }
+
+      .right.floated.image, .right.floated.images, .medium.image, .large.image {
+        float: none;
+        margin: -1rem auto 1rem;
+        width: 90%;
+      }
+    }
+
+    .form {
+      max-width: 90%;
+      margin: auto;
+    }
+  }
+
+  #projects .ui.segments:not(.horizontal) .react-player > video {
+    max-width: 90%;
+    max-height: 100%;
+    margin: -1rem 1rem 1rem;
   }
 
   .section {
@@ -204,6 +237,7 @@ footer {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+    visibility: visible;
   }
 }
 

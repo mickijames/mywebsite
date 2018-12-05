@@ -100,11 +100,10 @@ export default class App extends Component {
                         </Container>
                     </div>
                     <About ref={aPos => { this.aPos = aPos; }} />
-                    <hr />
+                    <hr style={{borderColor: 'deepskyblue'}} />
                     <Projects ref={pPos => { this.pPos = pPos; }} />
-                    <hr />
+                    <hr style={{borderColor: 'lime'}} />
                     <Contact ref={cPos => { this.cPos = cPos; }} />
-                    <hr />
                     <Footer />
                 </Container>
             </div>
