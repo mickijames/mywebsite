@@ -2,15 +2,12 @@
 import ReactDOM from 'react-dom';
 import ReactPlayer from 'react-player';
 import { Segment, Image } from 'semantic-ui-react';
-import ReactModal from 'react-modal';
 import tetris from '../Assets/tetris.png';
 import tetrisVideo from '../Assets/tetris.mp4';
 import ashman from '../Assets/ashman_play_cropped.png';
 import ashmanVideo from '../Assets/ashman.mp4';
 import shoppingCart from '../Assets/shop_home.png';
 import plannerApp from '../Assets/home.png';
-
-ReactModal.setAppElement('#root');
 
 export default class Projects extends Component {
     pos;
