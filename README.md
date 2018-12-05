@@ -1,6 +1,7 @@
 # Micalyn Williams' Personal Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and deployed using gh-pages.
+
 (To view compiled src code, go to the [gh-pages branch](https://github.com/mickijames/mywebsite/).)
 
 Below you will find some information on how to perform common tasks.<br>
