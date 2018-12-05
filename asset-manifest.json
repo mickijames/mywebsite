@@ -1,7 +1,7 @@
 {
-  "main.css": "/mywebsite/static/css/main.019e1a22.chunk.css",
-  "main.js": "/mywebsite/static/js/main.cd3a5c88.chunk.js",
-  "main.js.map": "/mywebsite/static/js/main.cd3a5c88.chunk.js.map",
+  "main.css": "/mywebsite/static/css/main.b8bdcf72.chunk.css",
+  "main.js": "/mywebsite/static/js/main.1eff20cc.chunk.js",
+  "main.js.map": "/mywebsite/static/js/main.1eff20cc.chunk.js.map",
   "static/css/1.d80f09f2.chunk.css": "/mywebsite/static/css/1.d80f09f2.chunk.css",
   "static/js/1.5e6dba64.chunk.js": "/mywebsite/static/js/1.5e6dba64.chunk.js",
   "static/js/1.5e6dba64.chunk.js.map": "/mywebsite/static/js/1.5e6dba64.chunk.js.map",
@@ -18,9 +18,9 @@
   "static/media/logo.svg": "/mywebsite/static/media/logo.6c3b7956.svg",
   "static/media/beach.jpg": "/mywebsite/static/media/beach.0101c803.jpg",
   "static/media/farmpic.jpg": "/mywebsite/static/media/farmpic.467ae765.jpg",
-  "static/css/main.019e1a22.chunk.css.map": "/mywebsite/static/css/main.019e1a22.chunk.css.map",
+  "static/css/main.b8bdcf72.chunk.css.map": "/mywebsite/static/css/main.b8bdcf72.chunk.css.map",
   "static/css/1.d80f09f2.chunk.css.map": "/mywebsite/static/css/1.d80f09f2.chunk.css.map",
   "index.html": "/mywebsite/index.html",
-  "precache-manifest.74e40713b65fcd7d2b2a7ff6e79a4c0e.js": "/mywebsite/precache-manifest.74e40713b65fcd7d2b2a7ff6e79a4c0e.js",
+  "precache-manifest.2c08c1adeb54a74c21bda5e210e31fa2.js": "/mywebsite/precache-manifest.2c08c1adeb54a74c21bda5e210e31fa2.js",
   "service-worker.js": "/mywebsite/service-worker.js"
 }
