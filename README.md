@@ -1,4 +1,4 @@
-(Project was deployed using gh-pages. To view compiled src code, go to the [gh-pages branch](https://github.com/mickijames/mywebsite/).)
+#### (Project was deployed using gh-pages. To view compiled src code, go to the [gh-pages branch](https://github.com/mickijames/mywebsite/).)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
