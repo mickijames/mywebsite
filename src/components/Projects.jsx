@@ -39,7 +39,7 @@ export default class Projects extends Component {
                                 name="Ashman Game" 
                                 path={ashman} 
                                 size="medium" 
-                                desc="I created this pacman-like game for my final project in my android class." 
+                                desc="I created this pacman-like android game for my final project. It offers settings for how many ghosts there are to start, how many ghosts can be added on the next level, and sounds for winning, losing and eating each cake. There's also a secret cheat code that reduces the amount of cakes to one." 
                             />
                         </Segment.Group>
                         <Segment.Group horizontal padded="very">
@@ -47,13 +47,15 @@ export default class Projects extends Component {
                                 name="Tetris Game" 
                                 path={tetris} 
                                 size="large" 
-                                desc="This is a tetris game created with the C#, WPF framework. Ethan Holman and I worked on it together as a final project." 
+                                desc="This is a tetris game created for a final project. Ethan Holman and I worked on it together using the C#, WPF framework." 
+                                type="Source Code"
+                                link="https://github.com/ethanholman/tetris"
                             />
                             <Project 
                                 name="Shopping Cart Website" 
                                 path={shoppingCart} 
                                 size="large" 
-                                desc="I created a data-driven website with C# ASP.NET and Bootstrap." 
+                                desc="I created a data-driven website with C#, utilizing solid-state management for saving your cart, and using the Bootstrap library for styling. It calculates your total price with shipping cost based off the combined weight of the products selected. It is hosted with ASP.NET." 
                                 type="View my website" 
                                 link="http://micalynjeanette.com/shoppingcart/" 
                                 

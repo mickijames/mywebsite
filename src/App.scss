@@ -1,28 +1,33 @@
+$primary: #003200;
+$blue: deepskyblue;
+$lime: #00ff00;
+$yellow: #fff000;
+
 #about .ui.segment {
-  border: 1px solid #00ff00;
+  border: 1px solid $yellow;
   
   h2 {
-    color: #fff000;
+    color: $lime;
   }
 
   .text {
-    color: #003200;
+    color: $primary;
   }
 }
 
 #projects .ui.segments:not(.horizontal) {
-  border: 1px solid #fff000;
+  border: 1px solid $blue;
   
   .ui.horizontal.segments {
     background-color: transparent;
   }
 
   h2 {
-    color: blueviolet;
+    color: $yellow;
   }
 
   .text {
-    color: #003200;
+    color: $primary;
   }
 
   .react-player > video {
@@ -32,14 +37,14 @@
 }
 
 #contact .ui.segment {
-  border: 1px solid blueviolet;
+  border: 1px solid $lime;
 
   h2 {
-    color: #00ff00;
+    color: $blue;
   }
   
   label {
-    color: #003200;
+    color: $primary;
   }
 }
 
