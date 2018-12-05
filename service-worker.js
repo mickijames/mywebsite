@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "micalynjeanette.com/precache-manifest.054c2f1ebe41f05be628e031cf944cad.js"
+  "/mywebsite/precache-manifest.74e40713b65fcd7d2b2a7ff6e79a4c0e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("micalynjeanette.com/index.html", {
+workbox.routing.registerNavigationRoute("/mywebsite/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
