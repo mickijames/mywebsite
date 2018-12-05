@@ -40,7 +40,7 @@ export default class App extends Component {
         let win = $(window);
         let top = win.scrollTop();
         let bottom = top + win.height();
-        if (this.contactPos < bottom - 1500) this.setState({ activeItem: this.state.sections[3] });
+        if (this.contactPos < bottom - 1200) this.setState({ activeItem: this.state.sections[3] });
         else if (this.projPos < bottom - 600) this.setState({ activeItem: this.state.sections[2] });
         else if (this.aboutPos < bottom - 400) this.setState({ activeItem: this.state.sections[1] });
         else this.setState({ activeItem: this.state.sections[0] });
