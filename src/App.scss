@@ -23,7 +23,10 @@
 
   .text {
     color: #003200;
-    max-width: 75%;
+  }
+
+  .react-player > video {
+    border-radius: .3125em;
   }
 }
 
@@ -79,6 +82,10 @@
     border: none;
     box-shadow: none;
     min-width: 50%;
+
+    img {
+      margin-bottom: .25rem;
+    }
   }
 }
 
