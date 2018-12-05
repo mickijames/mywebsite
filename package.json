@@ -8,7 +8,6 @@
     "node-sass": "^4.10.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-modal": "^3.6.1",
     "react-onscroll": "^1.0.4",
     "react-player": "^1.7.0",
     "react-router-dom": "^4.3.1",

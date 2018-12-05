@@ -6,7 +6,7 @@ export default class Footer extends Component {
             <footer>
                 <hr />
                 <p>Copyright &copy; mickijames.github.io</p>
-                <p><a href="https://github.com/mickijames/mywebsite">Source Code</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/mickijames/mywebsite/tree/master">Source Code</a></p>
             </footer>
         );
     }
