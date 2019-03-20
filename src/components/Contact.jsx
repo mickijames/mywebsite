@@ -1,6 +1,6 @@
 ﻿import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Segment, Button, Form, TextArea, Icon } from 'semantic-ui-react';
+import { Segment } from 'semantic-ui-react';
 
 export default class Contact extends Component {
     pos;
@@ -16,23 +16,11 @@ export default class Contact extends Component {
     render() {
         return (
             <div id='contact' className="page-height section fp-auto-height">
-                <Segment padded="very">
+                <Segment padded="very" className="text">
                     <h2>Contact</h2>
-                    <Form>
-                        <Form.Field>
-                            <label>Name</label>
-                            <input placeholder='First Lastname' />
-                        </Form.Field>
-                        <Form.Field>
-                            <label>Email</label>
-                            <input placeholder='Email' />
-                        </Form.Field>
-                        <Form.Field control={TextArea} label="Message" placeholder="Your message goes here...">
-                        </Form.Field>
-                        <Button icon type='submit'>
-                            <Icon name="mail" />
-                        </Button>
-                    </Form>
+                    <p>Please feel free to email me if you have any questions!</p>
+                    <p>My email is <span>micalynjeanette@hotmail.com</span>.</p>
+                    <p>Here's my <a href="https://docs.google.com/document/d/1BApRMs2futAOme9hKF-AN3AJfxGh4j98dF3zp4C6Re8/edit?usp=sharing" target="_blank">Resume</a> if you're interested.</p>
                 </Segment>
             </div>
         );

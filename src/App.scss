@@ -39,6 +39,18 @@ $yellow: #fff000;
 #contact .ui.segment {
   border: 1px solid $lime;
 
+  p {
+    color: $primary;
+  }
+
+  span {
+    font-style: italic;
+  }
+
+  a {
+    color: $blue;
+  }
+
   h2 {
     color: $blue;
   }
@@ -96,8 +108,9 @@ $yellow: #fff000;
 }
 
 .text {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Montserrat', sans-serif;
   padding-bottom: 1.5rem;
+  font-size: .9rem;
 }
 
 h4:first-child {
