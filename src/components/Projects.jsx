@@ -69,7 +69,7 @@ export default class Projects extends Component {
                                 size="medium" 
                                 desc="Designed national holiday posts and created a flag waving animation video for social media." 
                                 type="View Media" 
-                                link="https://github.com/mickijames/mywebsite/tree/master/" 
+                                link="https://github.com/mickijames/mywebsite/tree/master/Gonzaga%20Internship" 
                             />
                             <Project 
                                 name="Talk Fast Social Internship" 
@@ -77,7 +77,7 @@ export default class Projects extends Component {
                                 size="medium" 
                                 desc="Created sticker and t-shirt designs to promote the company's brand, and developed social media advertisment content for company clients." 
                                 type="View Media" 
-                                link="https://github.com/mickijames/mywebsite/tree/master/" 
+                                link="https://github.com/mickijames/mywebsite/tree/master/Talk%20Fast%20Social%20Internship" 
                             />
                         </Segment.Group>
                     </Segment>
