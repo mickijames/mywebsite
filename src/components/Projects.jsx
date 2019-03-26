@@ -8,6 +8,8 @@ import ashman from '../Assets/ashman_play_cropped.png';
 import ashmanVideo from '../Assets/ashman.mp4';
 import shoppingCart from '../Assets/shop_home.png';
 import plannerApp from '../Assets/home.png';
+import july4th from '../Assets/july.mp4';
+import tfs from '../Assets/tfs.png';
 
 export default class Projects extends Component {
     pos;
@@ -58,7 +60,24 @@ export default class Projects extends Component {
                                 desc="I created a data-driven website with C#, utilizing solid-state management for saving your cart, and using the Bootstrap library for styling. It calculates your total price with shipping cost based off the combined weight of the products selected. It is hosted with ASP.NET." 
                                 type="View my website" 
                                 link="http://micalynjeanette.com/shoppingcart/" 
-                                
+                            />
+                        </Segment.Group>
+                        <Segment.Group horizontal padded="very">
+                            <Project 
+                                name="Gonzaga Internship" 
+                                path={july4th} 
+                                size="medium" 
+                                desc="Designed national holiday posts and created a flag waving animation video for social media." 
+                                type="View Media" 
+                                link="https://github.com/mickijames/mywebsite/tree/master/" 
+                            />
+                            <Project 
+                                name="Talk Fast Social Internship" 
+                                path={tfs} 
+                                size="medium" 
+                                desc="Created sticker and t-shirt designs to promote the company's brand, and developed social media advertisment content for company clients." 
+                                type="View Media" 
+                                link="https://github.com/mickijames/mywebsite/tree/master/" 
                             />
                         </Segment.Group>
                     </Segment>
@@ -85,6 +104,7 @@ function Media(props) {
     const name = props.name;
     if (name === "Ashman Game") return <Player video={ashmanVideo} />;
     else if (name === "Tetris Game") return <Player video={tetrisVideo} />;
+    else if (name === "Gonzaga Internship") return <Player video={july4th} />;
     else return <Img link={props.link} path={props.path} size={props.size} />;
 }
 
