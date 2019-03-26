@@ -17,7 +17,7 @@
     "semantic-ui-react": "^0.83.0"
   },
   "devDependencies": {},
-  "homepage": "http://mickijames.github.io/mywebsite",
+  "homepage": "http://mickijames.github.io/",
   "scripts": {
     "start": "rimraf ./build && react-scripts start",
     "build": "react-scripts build",
